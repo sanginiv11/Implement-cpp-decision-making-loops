@@ -105,3 +105,74 @@ ALGORITHM:
 8. Otherwise, print "Access denied. Incorrect password."
 9. End the program.
    
+THEORY:
+
+1. Use a for loop to print even values between 0 and 10
+- This program uses a for loop to iterate through a sequence of numbers from 0 to 10.
+- The condition checks if each number is divisible by 2 (i.e., i % 2 == 0) to determine if it's even.
+- Only the even numbers are printed during each valid iteration.
+- This demonstrates how loop control and conditional logic can be used together to filter specific values.
+
+2. Use a for loop to print “SIT” 5 times
+- This program demonstrates the use of a for loop for fixed repetition.
+- The loop runs exactly 5 times, printing the string “SIT” during each iteration.
+- This is an example of repeating a constant output using loops.
+- It helps in understanding loop structure and how the loop counter controls repetition.
+
+3. Program using For-Continue loop
+- The program demonstrates the use of the continue statement inside a for loop.
+- When a certain condition is met, continue skips the current iteration and jumps to the next.
+- This is useful when you want to ignore specific values or cases while still continuing the loop.
+- It helps in controlling flow inside loops more precisely without breaking them completely.
+
+4-8. Using for loops print following patterns
+4. Pattern 1 (Left-aligned triangle using *)
+- This program prints a left-aligned triangle using nested for loops.
+- The outer loop controls the number of rows, while the inner loop controls the number of * to print per row.
+- Each row prints a number of asterisks equal to the row number.
+- It demonstrates basic nested loop structure for pattern generation.
+
+5. Pattern 2 (Right-aligned triangle using *)
+- This pattern uses spaces and asterisks together to form a right-aligned triangle.
+- The outer loop runs through each row, and two inner loops handle spacing and asterisk printing.
+- This helps understand how alignment and formatting work in loops.
+- It emphasizes the importance of loop nesting and condition planning.
+
+6. Pattern 3 (Centre aligned triangle using *)
+- This is a centered pyramid pattern, created using nested for loops.
+- The first inner loop prints spaces to center the stars, and the second inner loop prints increasing numbers of *.
+- The number of stars in each row follows the rule (2*i - 1) where i is the current row.
+- This pattern teaches how to balance space and characters for symmetry.
+
+7. Pattern 4 (Left-aligned triangle using numbers)
+- This program prints incremental numbers in a triangle format.
+- A counter is used to print increasing integers row-wise using nested loops.
+- Each row has one more number than the previous, forming a triangle shape.
+- It is useful for understanding variable manipulation and number patterns in loops.
+
+8. Pattern 5 (Left-aligned inverse triangle using *)
+- This program prints a left-aligned inverse triangle pattern using nested for loops.
+- The outer loop controls the number of rows, starting from the highest and decreasing with each iteration.
+- The inner loop prints a decreasing number of asterisks (*) in each row.
+- This helps understand how loop variables can be used in reverse order to create descending patterns and how nested loops interact to build shapes line by line.
+
+ 9. Print numbers from 1 to 20
+- The program uses a simple for loop from 1 to 20.
+- It demonstrates how to iterate through a linear numeric range.
+- Each value of the loop counter is printed during every iteration.
+- This is a fundamental exercise in understanding loop iteration over a number range.
+
+10. Authenticate the password
+- This program asks the user to input a password and checks if it matches a predefined value.
+- A conditional statement compares the entered value with the correct one.
+- If the password matches, access is granted; otherwise, it may prompt again or deny access.
+- This program introduces user input, condition checking, and simple authentication logic.
+
+CONCLUSION: 
+- This experiment helped us understand and implement loops and decision-making statements in C++. 
+- We used for loops to print patterns and numbers, and if statements for conditions like password authentication.
+- It improved our logic-building skills and gave practical experience with control flow in programming
+
+
+   
+
