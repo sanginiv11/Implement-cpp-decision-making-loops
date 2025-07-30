@@ -8,3 +8,9 @@ int main (){
     }
   return 0;
 }
+/* output
+1.SIT
+2.SIT
+3.SIT
+4.SIT
+5.SIT */
