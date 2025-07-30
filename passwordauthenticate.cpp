@@ -16,3 +16,10 @@ int main() {
     }
     return 0;
 }
+/* output 
+Enter password: password123
+Access denied. Incorrect password.
+PS C:\Users\SANGINI\OneDrive\Attachments\cppfiles> .\passwordauthenticate.exe
+
+Enter password: Sangini
+Access granted. */
