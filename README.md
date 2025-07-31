@@ -65,6 +65,12 @@ THEORY:
 - If the password matches, access is granted; otherwise, it may prompt again or deny access.
 - This program introduces user input, condition checking, and simple authentication logic.
 
+ 11. Hourglass star pattern
+- This program prints an hourglass star pattern using nested for loops.
+- It consists of an inverted pyramid followed by an upright pyramid, forming a symmetrical shape.
+- Spaces and stars are printed in each row based on the row number to control alignment.
+- The program demonstrates the use of nested loops and formatting logic in C++. 
+
 ALGORITHM:
 
 (01) PRINT EVEN NUMBERS FROM 1 TO 10
@@ -169,6 +175,23 @@ ALGORITHM:
 8. Otherwise, print "Access denied. Incorrect password."
 9. End the program.
 
+(11) HOURGLASS STAR PATTERN (*)
+1. Start the program.
+2. Declare an integer variable n for the number of rows (half of the hourglass).
+3. Prompt the user to enter the value of n and read the input.
+4. Print the upper half of the hourglass:
+5. Loop i from 0 to n-1:
+6. Print i spaces.
+7. Print 2*(n-i)-1 stars.
+8. Print a newline.
+9. Print the lower half of the hourglass:
+10. Loop i from 1 to n:
+11. Print n-i spaces.
+12. Print 2*i-1 stars.
+13. Print a newline.
+14. End the program.
+
+    
 CONCLUSION: 
 - This experiment helped us understand and implement loops and decision-making statements in C++. 
 - We used for loops to print patterns and numbers, and if statements for conditions like password authentication.
